@@ -3,7 +3,7 @@
 # Base image
 FROM python:3.10.4-slim-buster
 
-# Just an abitrary name for the container's  working directory
+# Just an arbitrary name for the container's  working directory
 WORKDIR /app 
 
 # Use root user to install and copy all the necessary packages
